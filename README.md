@@ -1,3 +1,4 @@
+#### **[Contact the creator](https://akshayanandraut.github.io)**
 # CURRENCY CONVERTOR
 
 
@@ -11,10 +12,10 @@
 
 ```
 
-from	-	from currency code
-to		-	to currency code
-amount	-	amount to be converted
-format	-	(optional) Specifies output response type. JSON(default), XML or DIRECT
+from	-	From currency code. Must be a valid code. 
+to		-	To currency code. Must be a valid code.
+amount	-	Amount to be converted. Only numeric data is accepted.
+format	-	(Optional). Specifies output response type. JSON(default), XML or DIRECT.
 
 ```
 
@@ -23,7 +24,7 @@ format	-	(optional) Specifies output response type. JSON(default), XML or DIRECT
 
 ```
 
-https://http://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&a=amount&format=format
+https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&amount=amount&format=format
 
 ```
 
@@ -37,10 +38,10 @@ https://http://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to
 ``` 	
 {
 	"data":{
-				"from" 		: 	from_currency_type,
-				"to" 		: 	to_currency_type,
-				"amount" 	:  	amount,
-				"response"	:	result_value
+				"from":from_currency_type,
+				"to":to_currency_type,
+				"amount":amount,
+				"response":result_value
 			}
 }
 
@@ -273,3 +274,5 @@ ERROR NO. 		 DESCRIPTION
 005	-		This error occurs because the amount specified is not a valid numeric. 			
 			
 ```
+
+[Contact the creator](https://akshayanandraut.github.io)
