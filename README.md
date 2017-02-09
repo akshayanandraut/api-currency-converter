@@ -262,14 +262,14 @@ Please go through the currency codes and error codes page to properly use the ap
 
 ERROR NO. 		 DESCRIPTION
 
-001		-		This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
+001	-		This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
 
-002 	-		This error occurs because the from and to currency parameters are the same. 
+002	-		This error occurs because the from and to currency parameters are the same. 
 						
-003		-		This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.
+003	-		This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.
  						
-004 	-		This error occurs because the from and to currency parameters are the same. 			
+004	-		This error occurs because the from and to currency parameters are the same. 			
 
-005 	-		This error occurs because the amount specified is not a valid numeric. 			
+005	-		This error occurs because the amount specified is not a valid numeric. 			
 			
 ```
