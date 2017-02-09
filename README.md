@@ -1,6 +1,6 @@
 #### **[Contact the creator](https://akshayanandraut.github.io)**
 
-# CURRENCY CONVERTOR
+# CURRENCY CONVERTER
 
 
 ## Documentation 
