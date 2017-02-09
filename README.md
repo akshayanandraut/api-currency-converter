@@ -63,7 +63,7 @@ https://http://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to
 ```			
 				
 				
-######DIRECT format	
+###### DIRECT format	
 
 ```
 
@@ -82,7 +82,7 @@ Please go through the currency codes and error codes page to properly use the ap
 
 ```
 
- ### CODES		### CURRENCY NAME				
+ CODES		CURRENCY NAME				
   AED     United Arab Emirates Dirham (AED) 
   AFN     Afghan Afghani (AFN) 
   ALL     Albanian Lek (ALL) 
@@ -260,7 +260,7 @@ Please go through the currency codes and error codes page to properly use the ap
 
 ```
 
-### ERROR NO. 		### DESCRIPTION
+ERROR NO. 		 DESCRIPTION
 
 001		-		This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
 
