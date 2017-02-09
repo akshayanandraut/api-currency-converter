@@ -40,10 +40,10 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 {
 	"data":{
-				"from": * from_currency_type * ,
-				"to": * to_currency_type * ,
-				"amount": * amount * ,
-				"response": *result_value * 
+				"from": from_currency_type ,
+				"to": to_currency_type ,
+				"amount": amount ,
+				"response": result_value 
 			}
 }
 
@@ -56,10 +56,10 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 <data>
 	<item>
-		<from> * from_currency_type * </from>
-		<to> * to_currency_type * </to>
-		<amount> * amount * </amount>
-		<response> * result_value * </response>
+		<from> from_currency_type </from>
+		<to> to_currency_type </to>
+		<amount> amount </amount>
+		<response> result_value </response>
 	</item>
 </data>
 
@@ -70,14 +70,14 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 ```
 
-* result_value *
+ result_value 
 
 ```
 
 
 ##### NOTE:
 
-_ Please go through the currency codes and error codes page to properly use the api call parameters avoid confusion. _
+_Please go through the currency codes and error codes page to properly use the api call parameters avoid confusion._
 
 
 
@@ -85,7 +85,7 @@ _ Please go through the currency codes and error codes page to properly use the 
 
 ```
 
- ** CODES **		** CURRENCY NAME **				
+ CODES 		CURRENCY NAME			
   AED     United Arab Emirates Dirham (AED) 
   AFN     Afghan Afghani (AFN) 
   ALL     Albanian Lek (ALL) 
@@ -263,7 +263,7 @@ _ Please go through the currency codes and error codes page to properly use the 
 
 ```
 
-** ERROR NO. ** 		 ** DESCRIPTION **
+ERROR NO. 		 DESCRIPTION 
 
 001	-		This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
 
