@@ -1,4 +1,4 @@
-#### **[Check out the creator's details](https://akshayanandraut.github.io)**
+#### **[Check out creator's details](https://akshayanandraut.github.io)**
 
 ---
 
