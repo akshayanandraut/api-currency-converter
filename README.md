@@ -2,6 +2,9 @@
 
 # CURRENCY CONVERTER
 
+---
+ 
+---
 
 
 
@@ -20,6 +23,10 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 
 ```
 
+---
+ 
+---
+
 
 #### API call format: 
 
@@ -28,6 +35,10 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&amount=amount&format=format
 
 ```
+
+---
+ 
+---
 
 #### Output format:
 
@@ -74,11 +85,18 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 ```
 
+---
+ 
+---
+
 
 ##### NOTE:
 
 _Please go through the currency codes and error codes page to properly use the api call parameters avoid confusion._
 
+---
+ 
+---
 
 
 ## Currency Codes
@@ -259,8 +277,10 @@ _Please go through the currency codes and error codes page to properly use the a
  | `ZMW` | Zambian Kwacha (ZMW) |
  | `ZWL` | Zimbabwean Dollar (2009) (ZWL) |
 
-
-
+ 
+---
+ 
+---
 
 ## Error Codes
 
@@ -274,7 +294,7 @@ _Please go through the currency codes and error codes page to properly use the a
 `004` | *INVALID_TO_VALUE_ERROR* | This error occurs because the from and to currency parameters are the same. 		
  `005` | *INVALID_AMOUNT_ERROR* | This error occurs because the amount specified is not a valid numeric. 	
 
-			
+---			
 
 
 [Visit the creator's site...](https://akshayanandraut.github.io)
