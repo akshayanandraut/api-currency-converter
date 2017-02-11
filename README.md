@@ -6,12 +6,12 @@
 
 ---
 
-### Get real-time currency conversions.
+## Get real-time currency conversions.
 
 ---
 
 
-#### Parameters:
+### Parameters:
 
 ```
 
@@ -38,12 +38,12 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ---
 
 
-#### Output format:
+### Output format:
 
-##### The output response will be in JSON format. Kindly check the structure below.
+#### The output response will be in JSON format. Kindly check the structure below.
 
 
-###### JSON format
+##### JSON format
 
 ```json	
 
@@ -59,7 +59,7 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ```
 
 
-###### XML format
+##### XML format
 
 ```xml
 
@@ -74,7 +74,7 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 ```	
 			
-###### DIRECT format	
+##### DIRECT format	
 
 ```
 
