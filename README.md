@@ -85,6 +85,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ```
 
+
  CODES |  CURRENCY NAME		
 ------- ----------------------------------------
   AED | United Arab Emirates Dirham (AED) 
@@ -257,6 +258,7 @@ _Please go through the currency codes and error codes page to properly use the a
   ZMK | Zambian Kwacha (1968–2012) (ZMK) 
   ZMW | Zambian Kwacha (ZMW) 
   ZWL | Zimbabwean Dollar (2009) (ZWL) 
+
   
 ```
 
@@ -276,6 +278,7 @@ ERROR NO. 	|	 DESCRIPTION
 004  |  This error occurs because the from and to currency parameters are the same. 			
 
 005  |  This error occurs because the amount specified is not a valid numeric. 			
+
 			
 ```
 
