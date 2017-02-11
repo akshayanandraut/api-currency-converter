@@ -83,7 +83,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ## Currency Codes
 
-```
+
 
 
  CODES | CURRENCY NAME		
@@ -260,7 +260,7 @@ _Please go through the currency codes and error codes page to properly use the a
   ZWL | Zimbabwean Dollar (2009) (ZWL) 
 
   
-```
+
 
 ## Error Codes
 
