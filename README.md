@@ -86,7 +86,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
 
 
- | ``CODES`` |  `CURRENCY NAME` | 	
+ | ``CODES`` |  ``CURRENCY NAME`` | 	
  | --------- | ---------------- |
  | `AED` | United Arab Emirates Dirham (AED) |
  | `AFN` | Afghan Afghani (AFN) |
@@ -266,10 +266,8 @@ _Please go through the currency codes and error codes page to properly use the a
 
 
 
- **ERROR NO.** | **ERROR** | **DESCRIPTION**
-
+ ``ERROR NO.`` | ``ERROR`` | ``DESCRIPTION``
 -------------- | -------------- | ----------------
-
 `001` | *DATA_INCOMPLETE_ERROR* | This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
 `002` | *INVALID_CONVERSION_ERROR* | This error occurs because the from and to currency parameters are the same.
 `003` | *INVALID_FROM_VALUE_ERROR* | This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.  						
