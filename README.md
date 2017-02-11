@@ -5,14 +5,11 @@
 # CURRENCY CONVERTER
 
 ---
----
-
-
 
 ### Get real-time currency conversions.
 
 ---
----
+
 
 #### Parameters:
 
@@ -26,7 +23,7 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 ```
 
 ---
----
+
 
 
 #### API call format: 
@@ -37,7 +34,7 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 ```
 
----
+
 ---
 
 
@@ -85,7 +82,7 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 ```
 
----
+
 ---
 
 
@@ -93,7 +90,7 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 _Please go through the currency codes and error codes page to properly use the api call parameters avoid confusion._
 
----
+
 ---
 
 
@@ -273,12 +270,11 @@ _Please go through the currency codes and error codes page to properly use the a
  | `ZWL` | Zimbabwean Dollar (2009) (ZWL) |
 
 ---
----
 
 
 ## Error Codes
 
- ``ERROR NO.`` | ``ERROR`` | ``DESCRIPTION``
+ ### ``ERROR NO.`` | ### ``ERROR`` | ### ``DESCRIPTION``
 -------------- | -------------- | ----------------
     `001`    | *DATA_INCOMPLETE_ERROR* | This error occurs because one of the required parameters(from, to and amount) is not provided with the  call. Please check the documentation for proper api call.
     `002`    | *INVALID_CONVERSION_ERROR* | This error occurs because the from and to currency parameters are the same.
@@ -287,5 +283,6 @@ _Please go through the currency codes and error codes page to properly use the a
     `005`    | *INVALID_AMOUNT_ERROR* | This error occurs because the amount specified is not a valid numeric. 	
 
 ---			
+
 
 [Visit the creator's site...](https://akshayanandraut.github.io)
