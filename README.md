@@ -49,10 +49,10 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 {
 "data":{
-          "from"    : 'from_currency_type' ,
-          "to"      : 'to_currency_type' ,
-          "amount"  : 'amount' ,
-          "response": 'result_value' 
+          "from"    : from_currency_type ,
+          "to"      : to_currency_type ,
+          "amount"  : amount ,
+          "response": result_value
        }
 }
 
@@ -65,10 +65,10 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 
 <data>
       <item>
-	    <from> 'from_currency_type' </from>
-	    <to> 'to_currency_type' </to>
-	    <amount> 'amount' </amount>
-	    <response> 'result_value' </response>
+	    <from> from_currency_type </from>
+	    <to> to_currency_type </to>
+	    <amount> amount </amount>
+	    <response> result_value </response>
       </item>
 </data>
 
