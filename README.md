@@ -96,7 +96,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ## Currency Codes
 
- | ``CODES`` |  ``CURRENCY NAME`` | 	
+ | **_CODES_** |  **_CURRENCY NAME_** | 	
  | --------- | ---------------- |
  | **AED** | United Arab Emirates Dirham (AED) |
  | **AFN** | Afghan Afghani (AFN) |
@@ -275,13 +275,13 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ## Error Codes
 
- ``ERROR NO.`` | ``ERROR`` | ``DESCRIPTION``
+ **_ERROR NO._** | **_ERROR_** | **_DESCRIPTION_**
 -------------- | -------------- | ----------------
-    **001**    | *DATA_INCOMPLETE_ERROR* | This error occurs because one of the required parameters(from, to and amount) is not provided with the  call. Please check the documentation for proper api call.
-    **002**    | *INVALID_CONVERSION_ERROR* | This error occurs because the from and to currency parameters are the same.
-    *003**    | *INVALID_FROM_VALUE_ERROR* | This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.  						
-    *004**    | *INVALID_TO_VALUE_ERROR* | This error occurs because the from and to currency parameters are the same. 		
-    **005*    | *INVALID_AMOUNT_ERROR* | This error occurs because the amount specified is not a valid numeric. 	
+    **`001`**    | *DATA_INCOMPLETE_ERROR* | This error occurs because one of the required parameters(from, to and amount) is not provided with the  call. Please check the documentation for proper api call.
+    **`002`**    | *INVALID_CONVERSION_ERROR* | This error occurs because the from and to currency parameters are the same.
+    **`003`**    | *INVALID_FROM_VALUE_ERROR* | This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.  						
+    **004`**    | *INVALID_TO_VALUE_ERROR* | This error occurs because the from and to currency parameters are the same. 		
+    **`005`**    | *INVALID_AMOUNT_ERROR* | This error occurs because the amount specified is not a valid numeric. 	
 
 ---			
 
