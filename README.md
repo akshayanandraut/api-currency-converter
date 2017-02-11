@@ -1,16 +1,18 @@
 #### **[Check out the creator's details](https://akshayanandraut.github.io)**
 
+---
+
 # CURRENCY CONVERTER
 
 ---
- 
 ---
 
 
 
 ### Get real-time currency conversions.
 
-
+---
+---
 
 #### Parameters:
 
@@ -24,7 +26,6 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 ```
 
 ---
- 
 ---
 
 
@@ -37,8 +38,8 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ```
 
 ---
- 
 ---
+
 
 #### Output format:
 
@@ -74,9 +75,8 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
       </item>
 </data>
 
-```			
-				
-				
+```	
+			
 ###### DIRECT format	
 
 ```
@@ -86,7 +86,6 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ```
 
 ---
- 
 ---
 
 
@@ -95,14 +94,10 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 _Please go through the currency codes and error codes page to properly use the api call parameters avoid confusion._
 
 ---
- 
 ---
 
 
 ## Currency Codes
-
-
-
 
  | ``CODES`` |  ``CURRENCY NAME`` | 	
  | --------- | ---------------- |
@@ -277,14 +272,11 @@ _Please go through the currency codes and error codes page to properly use the a
  | `ZMW` | Zambian Kwacha (ZMW) |
  | `ZWL` | Zimbabwean Dollar (2009) (ZWL) |
 
- 
 ---
- 
 ---
+
 
 ## Error Codes
-
-
 
  ``ERROR NO.`` | ``ERROR`` | ``DESCRIPTION``
 -------------- | -------------- | ----------------
@@ -295,6 +287,5 @@ _Please go through the currency codes and error codes page to properly use the a
     `005`    | *INVALID_AMOUNT_ERROR* | This error occurs because the amount specified is not a valid numeric. 	
 
 ---			
-
 
 [Visit the creator's site...](https://akshayanandraut.github.io)
