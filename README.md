@@ -1,4 +1,4 @@
-#### **[Contact the creator](https://akshayanandraut.github.io)**
+#### **[Check out the creator's details](https://akshayanandraut.github.io)**
 
 # CURRENCY CONVERTER
 
@@ -13,10 +13,10 @@
 
 ```
 
-from	-	From currency code. Must be a valid code. 
-to		-	To currency code. Must be a valid code.
-amount	-	Amount to be converted. Only numeric data is accepted.
-format	-	(Optional). Specifies output response type. JSON(default), XML or DIRECT.
+from   -  From currency code. Must be a valid code. 
+to     -  To currency code. Must be a valid code.
+amount -  Amount to be converted. Only numeric data is accepted.
+format -  (Optional). Specifies output response type. JSON(default), XML or DIRECT.
 
 ```
 
@@ -39,12 +39,12 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ``` 	
 
 {
-	"data":{
-				"from": from_currency_type ,
-				"to": to_currency_type ,
-				"amount": amount ,
-				"response": result_value 
-			}
+"data":{
+          "from"    : from_currency_type ,
+          "to"      : to_currency_type ,
+          "amount"  : amount ,
+          "response": result_value 
+       }
 }
 
 ```
@@ -55,12 +55,12 @@ https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_cur
 ```
 
 <data>
-	<item>
-		<from> from_currency_type </from>
-		<to> to_currency_type </to>
-		<amount> amount </amount>
-		<response> result_value </response>
-	</item>
+      <item>
+	    <from> from_currency_type </from>
+	    <to> to_currency_type </to>
+	    <amount> amount </amount>
+	    <response> result_value </response>
+      </item>
 </data>
 
 ```			
@@ -85,7 +85,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ```
 
- CODES 		CURRENCY NAME			
+ CODES      CURRENCY NAME			
   AED     United Arab Emirates Dirham (AED) 
   AFN     Afghan Afghani (AFN) 
   ALL     Albanian Lek (ALL) 
@@ -265,16 +265,16 @@ _Please go through the currency codes and error codes page to properly use the a
 
 ERROR NO. 		 DESCRIPTION 
 
-001	-		This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
+001  -  This error occurs because one of the required parameters(from, to and amount) is not provided with the call. Please check the documentation for proper api call.
 
-002	-		This error occurs because the from and to currency parameters are the same. 
+002  -  This error occurs because the from and to currency parameters are the same. 
 						
-003	-		This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.
+003  -  This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.
  						
-004	-		This error occurs because the from and to currency parameters are the same. 			
+004  -  This error occurs because the from and to currency parameters are the same. 			
 
-005	-		This error occurs because the amount specified is not a valid numeric. 			
+005  -  This error occurs because the amount specified is not a valid numeric. 			
 			
 ```
 
-[Contact the creator](https://akshayanandraut.github.io)
+[Visit the creator's site...](https://akshayanandraut.github.io)
