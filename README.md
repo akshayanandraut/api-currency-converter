@@ -11,6 +11,18 @@
 ---
 
 
+#### API call format: 
+
+```
+
+https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&amount=amount&format=format
+
+```
+
+
+---
+
+
 ### Parameters:
 
 ```
@@ -23,20 +35,6 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 ```
 
 ---
-
-
-
-#### API call format: 
-
-```
-
-https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&amount=amount&format=format
-
-```
-
-
----
-
 
 ### Output format:
 
