@@ -15,7 +15,7 @@
 
 ```
 
-https://akshayanand.herokuapp.com/apis/v1/currency/?from=from_currency&to=to_currency&amount=amount&format=format
+https://akshayanand.herokuapp.com/api/currency/?from=from_currency&to=to_currency&amount=amount&format=format
 
 ```
 
