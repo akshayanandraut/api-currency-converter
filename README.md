@@ -55,7 +55,7 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
           "response" : result_value,
 		  "error_no" : error_no,
 		  "error" : error,
-		  "error_desc" : error_desc,
+		  "error_desc" : error_desc
        }
 }
 
