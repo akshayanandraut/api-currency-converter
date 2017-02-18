@@ -47,16 +47,16 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 
 {
 "data":{
-          "from" : from_currency_type ,
-          "from_currency" : from_currency_full_name ,
-          "to" : to_currency_type ,
-          "to_currency" : to_currency_full_name ,
-          "amount" : amount ,
-          "response" : result_value,
-		  "error_no" : error_no,
-		  "error" : error,
-		  "error_desc" : error_desc
-       }
+		"from" : from_currency_type ,
+		"from_currency" : from_currency_full_name ,
+		"to" : to_currency_type ,
+		"to_currency" : to_currency_full_name ,
+		"amount" : amount ,
+		"response" : result_value,
+		"error_no" : error_no,
+		"error" : error,
+		"error_desc" : error_desc
+    }
 }
 
 ```
