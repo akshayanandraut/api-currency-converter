@@ -52,7 +52,7 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
           "to" : to_currency_type ,
           "to_currency" : to_currency_full_name ,
           "amount" : amount ,
-          "response" : result_value
+          "response" : result_value,
 		  "error_no" : error_no,
 		  "error" : error,
 		  "error_desc" : error_desc,
@@ -67,17 +67,17 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
 ```xml
 
 <data>
- <item>
-  <from> from_currency_type </from>
-  <from_currency> from_currency_full_name </from>
-  <to> to_currency_type </to>
-  <to_currency> to_currency_full_name </to>
-  <amount> amount </amount>
-  <response> result_value </response>
-  <error_no> error_no </error_no>
-  <error> error </error>
-  <error_desc> error_desc </error_desc>
- </item>
+	<item>
+		<from> from_currency_type </from>
+		<from_currency> from_currency_full_name </from>
+		<to> to_currency_type </to>
+		<to_currency> to_currency_full_name </to>
+		<amount> amount </amount>
+		<response> result_value </response>
+		<error_no> error_no </error_no>
+		<error> error </error>
+		<error_desc> error_desc </error_desc>
+	</item>
 </data>
 
 ```	
