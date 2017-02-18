@@ -53,6 +53,9 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
           "to_currency" : to_currency_full_name ,
           "amount" : amount ,
           "response" : result_value
+		  "error_no" : error_no,
+		  "error" : error,
+		  "error_desc" : error_desc,
        }
 }
 
@@ -71,6 +74,9 @@ format -  (Optional). Specifies output response type. JSON(default), XML or DIRE
   <to_currency> to_currency_full_name </to>
   <amount> amount </amount>
   <response> result_value </response>
+  <error_no> error_no </error_no>
+  <error> error </error>
+  <error_desc> error_desc </error_desc>
  </item>
 </data>
 
@@ -280,6 +286,7 @@ _Please go through the currency codes and error codes page to properly use the a
 
  **_ERROR NO._** | **_ERROR_** | **_DESCRIPTION_**
 -------------- | -------------- | ----------------
+	**000**	   | *NO_ERROR* | No Error (Check if there is an error and then proceed accordingly)
     **001**    | *DATA_INCOMPLETE_ERROR* | This error occurs because one of the required parameters(from, to and amount) is not provided with the  call. Please check the documentation for proper api call.
     **002**    | *INVALID_CONVERSION_ERROR* | This error occurs because the from and to currency parameters are the same.
     **003**    | *INVALID_FROM_VALUE_ERROR* | This error occurs because the from parameter is invalid. Please check the currency codes in the documentation for valid currency codes.  						
